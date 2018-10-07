@@ -11,7 +11,7 @@ if exists("syntax_on")
 endif
 let g:colors_name = "more"
 
-"i Comment        term=bold cterm=bold ctermfg=0 gui=none guifg=DarkGray
+hi Comment        term=bold cterm=bold ctermfg=0 gui=none guifg=DarkGray
 hi clear Comment
 hi Constant       term=bold cterm=none ctermfg=7 gui=none guifg=LightGray
 "i Defined        term=bold cterm=bold ctermfg=6 gui=none guifg=LightCyan
@@ -34,7 +34,7 @@ hi Statement      term=bold cterm=bold ctermfg=3 gui=bold guifg=Yellow
 "i StorageClass   term=bold cterm=bold ctermfg=5 gui=none guifg=LightMagenta
 "i String         term=none cterm=none ctermfg=3 gui=none guifg=LightYellow
 hi Todo           term=standout cterm=none ctermfg=7 ctermbg=2 guifg=LightGray guibg=DarkGreen
-hi Type           term=underline cterm=bold,underline ctermfg=3 gui=underline guifg=LightYellow
+hi Type           term=underline cterm=bold ctermfg=3 gui=underline guifg=LightYellow
 
 hi link Constant	Normal
 
